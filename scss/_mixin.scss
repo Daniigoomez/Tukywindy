@@ -1,0 +1,13 @@
+@mixin anclas{
+    list-style: none;
+
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: black;
+
+}
+a {
+    @include anclas;
+}
+    

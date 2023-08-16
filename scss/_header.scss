@@ -1,0 +1,61 @@
+
+
+header{
+    border-bottom: $bordes;
+
+    
+    @keyframes texto{
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100%;
+        }
+
+
+    }
+     h1 {
+        animation-name: texto;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        
+        text-align: center;
+        list-style: none;
+    
+        color:$colorTitulos;
+    
+        font-size: 90px;
+    
+        font-family: 'Bebas Neue', sans-serif;
+       
+    
+        font-weight: 300px;
+    
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 5px;
+
+    }
+    nav {
+
+        li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+
+
+        }
+
+        li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: black;
+            text-align: center ;
+        }
+
+
+    };
+    
+
+}

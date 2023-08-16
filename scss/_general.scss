@@ -1,0 +1,22 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/fondo3.jpg);
+}
+
+.logo{
+    width: 350px;
+    height: 200px;
+
+}
+
+.imgFondo {
+    background-image: url(../img/cachorros.webp);
+    background-position-x: center;
+    
+}
+
+.imgCarrusel {
+        height:500px;
+        object-fit: cover;
+      }

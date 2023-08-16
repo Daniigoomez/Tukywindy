@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap");
+.parrafo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  background-color: black solid;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.titulo {
+  background-color: gainsboro;
+  color: rgb(146, 44, 44);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.tiendaTitulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/fondo3.jpg);
+}
+
+.logo {
+  width: 350px;
+  height: 200px;
+}
+
+.imgFondo {
+  background-image: url(../img/cachorros.webp);
+  background-position-x: center;
+}
+
+.imgCarrusel {
+  height: 500px;
+  object-fit: cover;
+}
+
+header {
+  border-bottom: 2px solid gray;
+}
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+header h1 {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  list-style: none;
+  color: rgba(85, 35, 2, 0.788);
+  font-size: 90px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+header nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+header nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.tiendaDescripcion {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(3, 3, 3);
+}
+
+@keyframes button {
+  0% {
+    width: 120px;
+  }
+  25% {
+    width: 140px;
+  }
+  50% {
+    width: 160px;
+  }
+  75% {
+    width: 180px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: gray;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  animation-name: button;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  transition: all 3s;
+  background-position-x: center;
+}
+
+.button:hover {
+  background-color: brown;
+  color: azure;
+}
+
+.boton1 {
+  display: inline-block;
+  padding: 10px 20px;
+  color: bisque;
+  background-color: black;
+}
+
+form {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(3, 3, 3);
+}
+
+input, textarea {
+  display: block;
+  width: 75%;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+}
+
+.Pie {
+  background-color: rgb(92, 37, 39);
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  list-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+/*# sourceMappingURL=estilo.css.map */

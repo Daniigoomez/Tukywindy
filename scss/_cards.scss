@@ -1,0 +1,62 @@
+
+
+.tiendaDescripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(3, 3, 3);
+}
+
+@keyframes button {
+    0% {
+        width: 120px;
+         }
+    25%{
+        width: 140px;
+    }
+    50%{
+        width: 160px;
+    }
+    75%{
+        width: 180px;
+    }
+    100%{
+        width: 200px;
+    }
+  
+    }
+
+    .button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: gray;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    animation-name: button;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: all 3s ;
+    background-position-x: center;
+   
+
+}
+.button:hover {
+    background-color: brown ;
+    color: azure;
+
+
+     }
+
+     .boton1 {
+        display: inline-block;
+        padding: 10px 20px;
+        color: bisque;
+        background-color: black;
+
+
+    }
