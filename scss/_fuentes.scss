@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
 
 .parrafo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
   color: black;
 
   background-color: black solid;
   font-size: 30px;
   text-decoration: none;
+  text-align: center;
 
 
 }
  
 
-
-
 .titulo {
     background-color: gainsboro;
-    color: rgb(146, 44, 44);
+    color: rgb(214, 141, 6);
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -35,6 +34,63 @@
     text-decoration: none;  
     color: black;
     font-family: Arial, Helvetica, sans-serif
+
+  }
+
+  .textoUno{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: black;
+  
+    background-color: black solid;
+    font-size: 20px;
+    
+
+  }
+
+  .tituloUno{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: black solid;
+    text-align: center;
+
+    color: brown;
+
+  }
+
+  .descripcion{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: black;
+  
+    background-color: black solid;
+    font-size: 25px;
+    text-align: center;
+    
+
+  }
+
+  .parrafoDos{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
+  .card-text{
+    text-align: center;
+
+
+  }
+  .parrafoTres{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: black;
+  
+    background-color: black solid;
+    font-size: 18px;
+    background-position: center;
+
 
   }
    
